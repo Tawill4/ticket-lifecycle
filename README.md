@@ -6,9 +6,6 @@
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,25 +27,49 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PS4lgoz.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this project, following the installation and configuration of osTicket. I observed the life cycle of creating a ticket as an end user, and then working the ticket as an agent.. so I created a ticket as one of the users I created in the previous project. This was a ticket involving the online banking portal being down.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ubALjlU.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I then logged into John, one of the agents I created in osTicket. and Observed the ticket that was created.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4vD8J8E.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Since this is a very important issue that affects the company very directly, I assigned it to Sev-A SLA so it gets done first. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/rm1wPmW.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This being an issue with the online portion of banking... I assigned it to the online banking team where john AND jane are both members. This means both agents can see and work it to completion. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ihir8tR.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To get a better understanding of osTicket and the internals of created tickets, I messed around with the internal notes/replies within the tickets.. I used this is give updates to the person who created the ticket, as well as the other people who can work on the ticket (people in online banking). 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/AV7kk6o.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After "finding a solution" to the problem ticket, all that was left to do was close the ticket.. So I updated the status from "open" to "resolved" and gave a quick explanation of the cause and solution of the issue.
 </p>
 <br />
